@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Trocchi&display=swap');
+html{
+    background-color: rgb(13, 26, 45);
+}
+.attribution{ 
+    font-size: 11px; 
+    text-align: center ;
+    margin-top: 100px;
+   
+
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+.contenedor-principal{
+    margin: auto;
+    margin-top: 165px;
+    width: 350px;
+    height: 595px;
+    background-color: rgb(21, 39, 63);
+    border-radius: 15px;
+    box-shadow: 
+    0 25px 40px rgba(0, 0, 0, 0.5),
+    0 5px 60px rgba(0, 0, 0, 0.3);
+
+}
+.imagen{
+   display: flex; 
+   justify-content: center;
+   justify-items: center;
+   padding-left: 25px;
+   padding-right: 20px;
+   padding-top: 23px;
+   width: 300px;
+   height: 300px;
+}
+.imagen img{
+    border-radius: 7px;
+}
+.titulo{
+    color: white;
+    font-size: 22px;
+    padding-left: 26px;
+    font-family: Outfit;
+    
+}
+.descripcion{
+    font-family: Outfit;
+    font-size: 18px;
+    text-justify: left;
+    padding-left: 25px;
+    color: rgb(140, 167, 202);
+}
+.eth-icono{
+    margin: 9px;
+    margin-left: 13px;
+    
+}
+.eth-cantidad{
+    display: flex;
+    align-items: center;
+    font-family: Outfit;
+    color: rgb(1, 254, 250);  
+    padding-left: 12px; 
+    
+}
+.reloj{
+    max-width: 30px;
+    max-height: 30px;
+    padding-left: 110px;
+    padding-right: 6px;
+ }
+.color-tiempo{
+    color: rgb(140, 167, 202);
+}
+hr{
+    border: none;
+    border-top: 1px solid #ccc;
+    background: none;
+    width: 300px;
+    margin-bottom: 2px;
+    height: 1px;
+}
+.autor-info{
+    display: flex;
+    align-items: center;
+    font-family: Outfit;
+    color: rgb(140, 167, 202);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.avatar{
+    width: 29px;
+    margin-right: 12px;
+}
+.nombre{
+    color: white;
+}
+.titulo:hover {
+    color:  rgb(1, 254, 250); 
+}
+.nombre:hover {
+    color:rgb(1, 254, 250); 
+}
