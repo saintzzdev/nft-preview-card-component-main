@@ -42,6 +42,7 @@ html{
     font-size: 22px;
     padding-left: 26px;
     font-family: Outfit;
+    cursor: pointer;
     
 }
 .descripcion{
@@ -101,4 +102,5 @@ hr{
 }
 .nombre:hover {
     color:rgb(1, 254, 250); 
+    cursor: pointer;
 }
